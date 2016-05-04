@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: wechatforwarder.apk
+compressionType: false
+doNotCompress:
+- arsc
+- assets/WFHooks
+- assets/xposed_init
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.1.0
+versionInfo:
+  versionCode: '17'
+  versionName: 2.1.0

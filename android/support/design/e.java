@@ -1,0 +1,118 @@
+package android.support.design;
+
+public final class e
+{
+  public static final int abc_action_bar_content_inset_material = 2131230733;
+  public static final int abc_action_bar_default_height_material = 2131230721;
+  public static final int abc_action_bar_default_padding_end_material = 2131230734;
+  public static final int abc_action_bar_default_padding_start_material = 2131230735;
+  public static final int abc_action_bar_icon_vertical_padding_material = 2131230746;
+  public static final int abc_action_bar_overflow_padding_end_material = 2131230747;
+  public static final int abc_action_bar_overflow_padding_start_material = 2131230748;
+  public static final int abc_action_bar_progress_bar_size = 2131230722;
+  public static final int abc_action_bar_stacked_max_height = 2131230749;
+  public static final int abc_action_bar_stacked_tab_max_width = 2131230750;
+  public static final int abc_action_bar_subtitle_bottom_margin_material = 2131230751;
+  public static final int abc_action_bar_subtitle_top_margin_material = 2131230752;
+  public static final int abc_action_button_min_height_material = 2131230753;
+  public static final int abc_action_button_min_width_material = 2131230754;
+  public static final int abc_action_button_min_width_overflow_material = 2131230755;
+  public static final int abc_alert_dialog_button_bar_height = 2131230720;
+  public static final int abc_button_inset_horizontal_material = 2131230756;
+  public static final int abc_button_inset_vertical_material = 2131230757;
+  public static final int abc_button_padding_horizontal_material = 2131230758;
+  public static final int abc_button_padding_vertical_material = 2131230759;
+  public static final int abc_config_prefDialogWidth = 2131230725;
+  public static final int abc_control_corner_material = 2131230760;
+  public static final int abc_control_inset_material = 2131230761;
+  public static final int abc_control_padding_material = 2131230762;
+  public static final int abc_dialog_fixed_height_major = 2131230726;
+  public static final int abc_dialog_fixed_height_minor = 2131230727;
+  public static final int abc_dialog_fixed_width_major = 2131230728;
+  public static final int abc_dialog_fixed_width_minor = 2131230729;
+  public static final int abc_dialog_list_padding_vertical_material = 2131230763;
+  public static final int abc_dialog_min_width_major = 2131230730;
+  public static final int abc_dialog_min_width_minor = 2131230731;
+  public static final int abc_dialog_padding_material = 2131230764;
+  public static final int abc_dialog_padding_top_material = 2131230765;
+  public static final int abc_disabled_alpha_material_dark = 2131230766;
+  public static final int abc_disabled_alpha_material_light = 2131230767;
+  public static final int abc_dropdownitem_icon_width = 2131230768;
+  public static final int abc_dropdownitem_text_padding_left = 2131230769;
+  public static final int abc_dropdownitem_text_padding_right = 2131230770;
+  public static final int abc_edit_text_inset_bottom_material = 2131230771;
+  public static final int abc_edit_text_inset_horizontal_material = 2131230772;
+  public static final int abc_edit_text_inset_top_material = 2131230773;
+  public static final int abc_floating_window_z = 2131230774;
+  public static final int abc_list_item_padding_horizontal_material = 2131230775;
+  public static final int abc_panel_menu_list_width = 2131230776;
+  public static final int abc_search_view_preferred_width = 2131230777;
+  public static final int abc_search_view_text_min_width = 2131230732;
+  public static final int abc_seekbar_track_background_height_material = 2131230778;
+  public static final int abc_seekbar_track_progress_height_material = 2131230779;
+  public static final int abc_select_dialog_padding_start_material = 2131230780;
+  public static final int abc_switch_padding = 2131230744;
+  public static final int abc_text_size_body_1_material = 2131230781;
+  public static final int abc_text_size_body_2_material = 2131230782;
+  public static final int abc_text_size_button_material = 2131230783;
+  public static final int abc_text_size_caption_material = 2131230784;
+  public static final int abc_text_size_display_1_material = 2131230785;
+  public static final int abc_text_size_display_2_material = 2131230786;
+  public static final int abc_text_size_display_3_material = 2131230787;
+  public static final int abc_text_size_display_4_material = 2131230788;
+  public static final int abc_text_size_headline_material = 2131230789;
+  public static final int abc_text_size_large_material = 2131230790;
+  public static final int abc_text_size_medium_material = 2131230791;
+  public static final int abc_text_size_menu_material = 2131230792;
+  public static final int abc_text_size_small_material = 2131230793;
+  public static final int abc_text_size_subhead_material = 2131230794;
+  public static final int abc_text_size_subtitle_material_toolbar = 2131230723;
+  public static final int abc_text_size_title_material = 2131230795;
+  public static final int abc_text_size_title_material_toolbar = 2131230724;
+  public static final int design_appbar_elevation = 2131230800;
+  public static final int design_bottom_sheet_modal_elevation = 2131230801;
+  public static final int design_bottom_sheet_modal_peek_height = 2131230802;
+  public static final int design_fab_border_width = 2131230803;
+  public static final int design_fab_elevation = 2131230804;
+  public static final int design_fab_image_size = 2131230805;
+  public static final int design_fab_size_mini = 2131230806;
+  public static final int design_fab_size_normal = 2131230807;
+  public static final int design_fab_translation_z_pressed = 2131230808;
+  public static final int design_navigation_elevation = 2131230809;
+  public static final int design_navigation_icon_padding = 2131230810;
+  public static final int design_navigation_icon_size = 2131230811;
+  public static final int design_navigation_max_width = 2131230736;
+  public static final int design_navigation_padding_bottom = 2131230812;
+  public static final int design_navigation_separator_vertical_padding = 2131230813;
+  public static final int design_snackbar_action_inline_max_width = 2131230737;
+  public static final int design_snackbar_background_corner_radius = 2131230738;
+  public static final int design_snackbar_elevation = 2131230814;
+  public static final int design_snackbar_extra_spacing_horizontal = 2131230739;
+  public static final int design_snackbar_max_width = 2131230740;
+  public static final int design_snackbar_min_width = 2131230741;
+  public static final int design_snackbar_padding_horizontal = 2131230815;
+  public static final int design_snackbar_padding_vertical = 2131230816;
+  public static final int design_snackbar_padding_vertical_2lines = 2131230742;
+  public static final int design_snackbar_text_size = 2131230817;
+  public static final int design_tab_max_width = 2131230818;
+  public static final int design_tab_scrollable_min_width = 2131230743;
+  public static final int design_tab_text_size = 2131230819;
+  public static final int design_tab_text_size_2line = 2131230820;
+  public static final int disabled_alpha_material_dark = 2131230821;
+  public static final int disabled_alpha_material_light = 2131230822;
+  public static final int highlight_alpha_material_colored = 2131230825;
+  public static final int highlight_alpha_material_dark = 2131230826;
+  public static final int highlight_alpha_material_light = 2131230827;
+  public static final int item_touch_helper_max_drag_scroll_per_frame = 2131230828;
+  public static final int item_touch_helper_swipe_escape_max_velocity = 2131230829;
+  public static final int item_touch_helper_swipe_escape_velocity = 2131230830;
+  public static final int notification_large_icon_height = 2131230832;
+  public static final int notification_large_icon_width = 2131230833;
+  public static final int notification_subtext_size = 2131230834;
+}
+
+
+/* Location:              /Users/sunkuo/Downloads/dex2jar-2.0/classes-dex2jar.jar!/android/support/design/e.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fkzhang.wechatforwarder" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name="com.fkzhang.wechatforwarder.MainActivity" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.fkzhang.wechatforwarder.MainActivity-Alias" android:targetActivity="com.fkzhang.wechatforwarder.MainActivity" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/title_activity_support" android:name="com.fkzhang.wechatforwarder.SupportActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <provider android:authorities="com.fkzhang.wechatforwarder.contentprovider" android:exported="true" android:name="com.fkzhang.wechatforwarder.Data.DataProvider" android:process="com.fkzhang.wechatforwarder.contentprovider"/>
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="Forward Wechat images and sights to moments (转发图片和小视频到朋友圈) [此模块是免费提供的请支持我别受骗去买！]"/>
+        <meta-data android:name="xposedminversion" android:value="46"/>
+        <activity android:name="com.yalantis.ucrop.UCropActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:label="@string/title_activity_auto_forward" android:name="com.fkzhang.wechatforwarder.AutoForwardActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_auto_forward" android:name="com.fkzhang.wechatforwarder.AutoForwardListActivity" android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+</manifest>
